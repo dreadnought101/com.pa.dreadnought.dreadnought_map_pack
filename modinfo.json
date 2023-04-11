@@ -1,0 +1,39 @@
+{
+    "context": "client",
+    "identifier": "com.pa.dreadnought_map_pack",
+    "display_name": "Dreadnought's Map Pack",
+    "description": "Competitive 1v1 maps as well as FFA/Team maps up to wild 16v16",
+    "author": "Dreadnought",
+    "version": "1.0",
+    "build": "116400",
+    "date": "2023/04/10",
+    "signature": "not yet implemented",
+    "forum": "https://forums.planetaryannihilation.com/threads/dreadnought-map-pack.73595/",
+    "icon": "https://i.imgur.com/hBPRGAm.png",
+    "category": [
+        "maps"
+    ],
+    "load_planet": [
+        "coui://ui/mods/dreadnought/maps.js"
+    ],
+    "searchable": [
+        "dreadnought",
+		"dread",
+        "map",
+        "pack",
+        "maps",
+        "systems",
+        "system",
+        "planet", 
+        "ffa", 
+        "1v1", 
+        "team",
+		"foundry"
+    ],
+    "priority": 100,
+    "enabled": true,
+    "dependencies": [
+        "com.pa.conundrum.cShareSystems",
+        "com.pa.grandhomie.simplebiomes.server"
+    ]
+}
