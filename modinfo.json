@@ -1,6 +1,6 @@
 {
     "context": "client",
-    "identifier": "com.pa.dreadnought_map_pack-dev",
+    "identifier": "com.pa.dreadnought_map_pack",
     "display_name": "Dreadnought's Map Pack",
     "description": "Competitive 1v1 maps as well as FFA/Team maps up to wild 16v16",
     "author": "Dreadnought",
@@ -11,7 +11,8 @@
     "forum": "https://forums.planetaryannihilation.com/threads/dreadnought-map-pack.73595/",
     "icon": "https://i.imgur.com/hBPRGAm.png",
     "category": [
-        "maps"
+        "maps",
+		"titans"
     ],
     "load_planet": [
         "coui://ui/mods/dreadnought/maps.js"
