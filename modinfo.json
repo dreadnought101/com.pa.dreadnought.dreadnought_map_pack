@@ -18,19 +18,23 @@
     ],
     "searchable": [
         "dreadnought",
-		"dread",
+        "dread",
         "map",
         "pack",
         "maps",
         "systems",
         "system",
-        "planet", 
-        "ffa", 
-        "1v1", 
+        "planet",
+        "ffa",
+        "1v1",
         "team",
-		"foundry"
+        "foundry"
     ],
     "priority": 100,
+    "titansOnly": true,
+    "classicOnly": false,
+    "classic": false,
+    "titans": true,
     "enabled": true,
     "dependencies": [
         "com.pa.conundrum.cShareSystems",
