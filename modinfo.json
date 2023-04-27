@@ -12,11 +12,13 @@
     "icon": "https://i.imgur.com/hBPRGAm.png",
     "category": [
         "maps",
-		"titans"
+        "titans"
     ],
-    "load_planet": [
-        "coui://ui/mods/dreadnought/maps.js"
-    ],
+    "scenes": {
+        "load_planet": [
+            "coui://ui/mods/dreadnought/maps.js"
+        ]
+    },
     "searchable": [
         "dreadnought",
         "dread",
