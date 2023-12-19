@@ -2,7 +2,7 @@
     "name": "Foundry 1v1",
     "description": "Approach the foundry and take its bountiful resources before your opponent does!  Features both small and large entry points to fight over key arenas.",
     "creator": "Dreadnought",
-    "version": "1.2",
+    "version": "1.3",
     "planets": [
         {
             "name": "Foundry",
