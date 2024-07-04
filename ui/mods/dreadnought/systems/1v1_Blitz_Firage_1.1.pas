@@ -1,5 +1,5 @@
 {
-    "name": "1v1 Firage (Blits)",
+    "name": "Firage (1v1 Blitz)",
     "description": "1v1 Blitz style lava map",
     "creator": "Dreadnought",
     "version": "1.0",

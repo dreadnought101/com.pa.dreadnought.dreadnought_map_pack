@@ -1,5 +1,5 @@
 {
-    "name": "1v1 Heatstroke (Blits)",
+    "name": "1v1 Heatstroke (1v1 Blitz)",
     "description": "1v1 Blitz desert map with multiple lanes of varying value and distance to your opponent.",
     "creator": "Dreadnought",
     "version": "1.3",

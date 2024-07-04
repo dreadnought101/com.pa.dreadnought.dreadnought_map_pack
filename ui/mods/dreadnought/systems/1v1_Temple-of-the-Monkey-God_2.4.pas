@@ -1,5 +1,5 @@
 {
-    "name": "Temple of the Monkey God",
+    "name": "Temple of the Monkey God 1v1",
     "description": "1v1 hybrid naval/land. There is a short path to the enemy base that both ground units and piranhas can access, as well as an air only accessible island between you and your opponent.  If the war goes long, across deepwater oceans and shallows, there is a temple on the far side of the planet with many riches to plunder.",
     "creator": "Dreadnought",
     "version": "2.2",

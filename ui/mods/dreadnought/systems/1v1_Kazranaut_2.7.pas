@@ -1,5 +1,5 @@
 {
-    "name": "Kazranaut",
+    "name": "Kazranaut 1v1",
     "description": "1v1 Orbital system where you start on your own planet mirroring your oponents planet with a 3rd neutral metal planet being overrun by ice.  There are many blind spots to exploit and destruction to be had.",
     "creator": "Dreadnought",
     "version": "2.7",

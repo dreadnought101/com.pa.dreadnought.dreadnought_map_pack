@@ -1,6 +1,6 @@
 {
-    "name": "Botchi",
-    "description": "Blitz style metal map with multiple lanes to attack.  Your opponent spawns diagonally from you.",
+    "name": "Botchi (1v1 Blitz)",
+    "description": "1v1 Blitz style metal map with multiple lanes to attack.  Your opponent spawns diagonally from you.",
     "creator": "Dreadnought",
     "version": "1.1",
     "planets": [
