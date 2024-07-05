@@ -1,5 +1,5 @@
 {
-    "name": "Yukon-Ho",
+    "name": "Yukon-Ho 1v1",
     "description": "1v1 Large map with lots of dead space and laned fights",
     "creator": "Dreadnought",
     "version": "Alpha 1",
