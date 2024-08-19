@@ -1,6 +1,6 @@
 {
     "name": "Nastolda 1v1",
-    "description": "An ancient battlefield sunken into the desert, will you add to that history?  Move fast and take several central strategic points before your opponent does, for your start has very little metal and defensive potential",
+    "description": "An ancient battlefield sunken into the desert, will you add to that history?  Move fast and take several central strategic points before your opponent does, for your starting position has very little economic and defensive potential",
     "creator": "Dreadnought",
     "version": "Version 1.2",
     "planets": [
