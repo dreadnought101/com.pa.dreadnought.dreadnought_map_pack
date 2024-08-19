@@ -6,6 +6,7 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
     "coui://ui/mods/dreadnought/systems/1v1_Freezer_1.1.pas",
     "coui://ui/mods/dreadnought/systems/1v1_yukon-ho_3.2.pas",
     "coui://ui/mods/dreadnought/systems/1v1_Molg_1.3.pas",
+    "coui://ui/mods/dreadnought/systems/1v1_Nastolda_1.1.pas",
     "coui://ui/mods/dreadnought/systems/1v1_Rustad_1.24.pas",
     "coui://ui/mods/dreadnought/systems/1v1_Smoker_1.3.pas",
     "coui://ui/mods/dreadnought/systems/1v1_Temple-of-the-Monkey-God_2.4.pas",
