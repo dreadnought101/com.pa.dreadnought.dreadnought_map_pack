@@ -1,10 +1,10 @@
 {
     "context": "client",
-    "identifier": "com.pa.dreadnought_map_pack-dev",
+    "identifier": "com.pa.dreadnought_map_pack",
     "display_name": "Dreadnought's Map Pack",
     "description": "Competitive 1v1 maps as well as FFA/Team maps up to wild 16v16",
     "author": "Dreadnought",
-    "version": "1.9",
+    "version": "1.95",
     "build": "116400",
     "date": "2024-9-6",
     "signature": "not yet implemented",
