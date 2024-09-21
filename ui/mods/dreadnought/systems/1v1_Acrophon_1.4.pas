@@ -1,5 +1,5 @@
 {
-    "name": "Acraphon_1v1",
+    "name": "Acraphon 1v1",
     "description": "Fight over this ancient naval factory and utilize its many abandoned resources to take down your opponent.  There is a small secondary naval planet that spawns in 20-22 minutes.",
     "creator": "Dreadnought",
     "version": "1.4",
