@@ -1,6 +1,6 @@
 {
     "name": "Snapper 1v1-2v2",
-    "description": "Fight through this cracked hellscape and reap the dangerous rewards found there.  Snapper has 2 spawns per player in 1v1, with spawns being 1-2-1-2 meaning players will always spawn close to eachother.  2v2 is preditermined but has the same positioning as above, making threats come from all around.",
+    "description": "Fight through this cracked hellscape and reap the dangerous rewards found there.  Snapper has 2 spawns per player in 1v1, with spawns being 1-1-2-2 meaning players can spawn close or far away from eachother.  2v2 is preditermined but has the same positioning as above, with laned matchups but there is chance for crossover threats.",
     "creator": "Dreadnought",
     "version": "1.4",
     "planets": [
