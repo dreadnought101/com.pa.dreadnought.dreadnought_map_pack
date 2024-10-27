@@ -4,7 +4,7 @@
     "display_name": "Dreadnought's Map Pack",
     "description": "Competitive 1v1 maps as well as FFA/Team maps up to wild 16v16",
     "author": "Dreadnought",
-    "version": "2.2",
+    "version": "2.3",
     "build": "116400",
     "date": "2024-10-13",
     "signature": "not yet implemented",
@@ -41,6 +41,6 @@
     "enabled": true,
     "dependencies": [
         "com.pa.conundrum.cShareSystems",
-        "com.pa.grandhomie.simplebiomes.server"
+		"com.wondible.pa.hidden_biomes"
     ]
 }
