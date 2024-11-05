@@ -12,6 +12,7 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
         "coui://ui/mods/dreadnought/systems/1v1_Crest_1.2.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Foundry_1.4.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Freezer_1.2.pas",
+        "coui://ui/mods/dreadnought/systems/1v1_Ignitus_1.1.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Jongleur_1.3.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Molg_1.3.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Nastolda_1.4.pas",
