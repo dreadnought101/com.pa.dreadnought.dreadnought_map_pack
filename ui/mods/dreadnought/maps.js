@@ -3,7 +3,7 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
         "coui://ui/mods/dreadnought/systems/1v1_Blitz_Firage_1.1.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Blitz_Heatstroke_1.3.pas",
 
-        "coui://ui/mods/dreadnought/systems/1v1_Acrophon_1.4.pas",
+        "coui://ui/mods/dreadnought/systems/1v1_Acrophon_1.5.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Anvil_1.1.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Atomic_1.2.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Avalanche_1.7.pas",
@@ -12,6 +12,8 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
         "coui://ui/mods/dreadnought/systems/1v1_Crest_1.2.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Foundry_1.4.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Freezer_1.2.pas",
+        "coui://ui/mods/dreadnought/systems/1v1_Icebreaker_1.2.pas",
+
         "coui://ui/mods/dreadnought/systems/1v1_Ignitus_1.1.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Jongleur_1.3.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Molg_1.3.pas",
