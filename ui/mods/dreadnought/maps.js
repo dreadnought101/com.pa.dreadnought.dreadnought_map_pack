@@ -13,12 +13,12 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
         "coui://ui/mods/dreadnought/systems/1v1_Foundry_1.4.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Freezer_1.2.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Icebreaker_1.2.pas",
-
+        "coui://ui/mods/dreadnought/systems/1v1_Ice-cream_1.0.pas",
 
         "coui://ui/mods/dreadnought/systems/1v1_Jongleur_1.3.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Molg_1.3.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Nastolda_1.4.pas",
-        "coui://ui/mods/dreadnought/systems/1v1_Oasis_1.1.pas",
+        "coui://ui/mods/dreadnought/systems/1v1_Oasis_1.1.pas",        "coui://ui/mods/dreadnought/systems/1v1_Odium_1.2.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Paranoid-Android_1.2.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Pummel_1.0.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Smoker_1.4.pas",
@@ -33,6 +33,8 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
         "coui://ui/mods/dreadnought/systems/1v1-3v3_Drinker_1.5.pas",
         "coui://ui/mods/dreadnought/systems/1v1-3v3_Rustad_1.25.pas",
         "coui://ui/mods/dreadnought/systems/1v1-3v3_yukon-ho_3.3.pas",
+		
+		"coui://ui/mods/dreadnought/systems/5v5_TNT_1.2.pas",
 
         "coui://ui/mods/dreadnought/systems/11v11_Aquamax_1.0.pas",
         "coui://ui/mods/dreadnought/systems/16v16_Aquamax_1.0.pas",
