@@ -5,6 +5,7 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
 
         "coui://ui/mods/dreadnought/systems/1v1_Acrophon_1.5.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Anvil_1.1.pas",
+        "coui://ui/mods/dreadnought/systems/1v1_Atlas-Station_1.0.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Atomic_1.2.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Avalanche_1.7.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Crackle_1.1.pas",
@@ -18,7 +19,7 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
         "coui://ui/mods/dreadnought/systems/1v1_Jongleur_1.3.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Molg_1.3.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Nastolda_1.4.pas",
-        "coui://ui/mods/dreadnought/systems/1v1_Oasis_1.1.pas",        "coui://ui/mods/dreadnought/systems/1v1_Odium_1.2.pas",
+        "coui://ui/mods/dreadnought/systems/1v1_Oasis_1.1.pas", "coui://ui/mods/dreadnought/systems/1v1_Odium_1.2.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Paranoid-Android_1.2.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Pummel_1.0.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Smoker_1.4.pas",
@@ -27,14 +28,17 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
         "coui://ui/mods/dreadnought/systems/1v1_Kazranaut_2.8.pas",
 
         "coui://ui/mods/dreadnought/systems/1v1-2v2_Ignitus_1.3.pas",
+        "coui://ui/mods/dreadnought/systems/1v1-2v2_Mion-9_1.1.pas",
         "coui://ui/mods/dreadnought/systems/1v1-2v2_Burning-Oasis_1.5.pas",
         "coui://ui/mods/dreadnought/systems/1v1-2v2_Snapper_1.4.pas",
 
         "coui://ui/mods/dreadnought/systems/1v1-3v3_Drinker_1.5.pas",
         "coui://ui/mods/dreadnought/systems/1v1-3v3_Rustad_1.25.pas",
         "coui://ui/mods/dreadnought/systems/1v1-3v3_yukon-ho_3.3.pas",
-		
-		"coui://ui/mods/dreadnought/systems/5v5_TNT_1.2.pas",
+
+        "coui://ui/mods/dreadnought/systems/4v4_Sabbath-Station_1.0.pas",
+
+        "coui://ui/mods/dreadnought/systems/5v5_TNT_1.2.pas",
 
         "coui://ui/mods/dreadnought/systems/11v11_Aquamax_1.0.pas",
         "coui://ui/mods/dreadnought/systems/16v16_Aquamax_1.0.pas",
