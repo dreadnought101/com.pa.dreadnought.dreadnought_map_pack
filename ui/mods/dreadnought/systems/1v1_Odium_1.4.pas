@@ -2,7 +2,7 @@
     "name": "Odium 1v1",
     "description": "Fight across this metal hellscape to secure victory.  There are some small bridges directly between you and your opponent, as well as an underground walkway to a covered metal expansion between bases.  There are island metal expansions at the polar caps, but the main expansion routes will take you either left or right from your starter zone, and a backside line of metal that is difficult to get to early on.",
     "creator": "Dreadnought",
-    "version": "1.3",
+    "version": "1.4",
     "planets": [
         {
             "name": "Odium",
@@ -364,7 +364,7 @@
                 {
                     "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_trench_11_sub.json",
-                    "height": 624.9221801757812,
+                    "height": 620.9221801757812,
                     "op": "BO_Subtract",
                     "position": [
                         441.88671875,
@@ -374,21 +374,21 @@
                     "transform": [
                         0.7566041946411133,
                         1.7881393432617188e-7,
-                        0.48790380358695984,
-                        441.8866271972656,
+                        0.643467128276825,
+                        439.0581970214844,
                         -0.7566041946411133,
                         1.7881393432617188e-7,
-                        0.48790380358695984,
-                        441.8866271972656,
+                        0.643467128276825,
+                        439.0581970214844,
                         0,
                         -1.0699996948242188,
-                        1.645088900659175e-7,
-                        0.0001489930582465604
+                        2.1696092744605266e-7,
+                        0.00014803938393015414
                     ],
                     "scale": [
                         1.0699999332427979,
                         1.0699999332427979,
-                        0.6900002956390381
+                        0.9100000858306885
                     ],
                     "rotation": -0.7853981852531433,
                     "weight": [

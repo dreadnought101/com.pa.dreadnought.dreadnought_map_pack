@@ -19,7 +19,7 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
         "coui://ui/mods/dreadnought/systems/1v1_Jongleur_1.3.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Molg_1.3.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Nastolda_1.4.pas",
-        "coui://ui/mods/dreadnought/systems/1v1_Oasis_1.1.pas", "coui://ui/mods/dreadnought/systems/1v1_Odium_1.3.pas",
+        "coui://ui/mods/dreadnought/systems/1v1_Oasis_1.1.pas", "coui://ui/mods/dreadnought/systems/1v1_Odium_1.4.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Paranoid-Android_1.2.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Pummel_1.0.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Smoker_1.4.pas",
