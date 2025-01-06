@@ -1,8 +1,8 @@
 {
     "name": "Oculan Mining Facility 5v5",
     "description": "Invade and take over this lucrative mining facility.  A straightforward mid-eco lane game with 2-3 semi-open paths to your opponent.  5v5 Shared and Unshared supported.",
-    "creator": "Dreadmpigjt",
-    "version": "1.0",
+    "creator": "Dreadnought",
+    "version": "1.1",
     "planets": [
         {
             "name": "Oculan Mining Facility",
