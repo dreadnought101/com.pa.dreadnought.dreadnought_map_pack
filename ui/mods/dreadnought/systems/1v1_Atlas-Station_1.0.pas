@@ -1,8 +1,8 @@
 {
     "name": "Atlas Station 1v1",
-    "description": "",
-    "creator": "",
-    "version": "",
+    "description": "There is a faint power signature on a nearby desolate moon, investigate this obscure research station and discover plans to a devestating weapon to use against your enemies!",
+    "creator": "Dreadnought",
+    "version": "1.0",
     "planets": [
         {
             "name": "Atlas Station",
