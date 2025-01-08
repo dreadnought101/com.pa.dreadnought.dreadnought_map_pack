@@ -37,15 +37,18 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
         "coui://ui/mods/dreadnought/systems/1v1-3v3_yukon-ho_3.3.pas",
 
         "coui://ui/mods/dreadnought/systems/4v4_Sabbath-Station_1.0.pas",
-		"coui://ui/mods/dreadnought/systems/4v4_Psycho_1.0.pas",
-		
+        "coui://ui/mods/dreadnought/systems/4v4_Psycho_1.0.pas",
+
         "coui://ui/mods/dreadnought/systems/5v5_Oculan-Mining-Facility_1.1.pas",
         "coui://ui/mods/dreadnought/systems/5v5_TNT_1.2.pas",
+
+        "coui://ui/mods/dreadnought/systems/1v1_Cyclonus-X_1.3.pas",
+        "coui://ui/mods/dreadnought/systems/5v5_Cyclonus-X_Brawl_1.3.pas",
 
         "coui://ui/mods/dreadnought/systems/11v11_Aquamax_1.0.pas",
         "coui://ui/mods/dreadnought/systems/16v16_Aquamax_1.0.pas",
         "coui://ui/mods/dreadnought/systems/16v16_SUPER_Aquamax_1.2.6.pas",
-		        "coui://ui/mods/dreadnought/systems/RokNok_1v1_1.0.pas",
+        "coui://ui/mods/dreadnought/systems/RokNok_1v1_1.0.pas", "coui://ui/mods/dreadnought/systems/Uztek_1v1-2v2_1.0.pas",
         "coui://ui/mods/dreadnought/systems/BabyEarth.pas"
 
     ]);

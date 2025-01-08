@@ -4,10 +4,9 @@
     "display_name": "Dreadnought's Map Pack",
     "description": "Competitive 1v1 maps as well as FFA/Team maps up to wild 16v16",
     "author": "Dreadnought",
-    "version": "2.8",
+    "version": "2.9",
     "build": "116400",
-    "date": "2025-1-5",
-    "signature": "not yet implemented",
+    "date": "2025-1-8",
     "forum": "https://forums.planetaryannihilation.com/threads/dreadnought-map-pack.73595/",
     "icon": "https://i.imgur.com/hBPRGAm.png",
     "category": [
@@ -35,10 +34,6 @@
     ],
     "priority": 100,
     "titansOnly": true,
-    "classicOnly": false,
-    "classic": false,
-    "titans": true,
-    "enabled": true,
     "dependencies": [
         "com.pa.conundrum.cShareSystems"
     ]
