@@ -42,8 +42,13 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
         "coui://ui/mods/dreadnought/systems/5v5_Oculan-Mining-Facility_1.1.pas",
         "coui://ui/mods/dreadnought/systems/5v5_TNT_1.2.pas",
 
-        "coui://ui/mods/dreadnought/systems/1v1_Cyclonus-X_1.3.pas",
-        "coui://ui/mods/dreadnought/systems/5v5_Cyclonus-X_Brawl_1.3.pas",
+        "coui://ui/mods/dreadnought/systems/Cyclonus-X_1v1_1.3.pas",
+        "coui://ui/mods/dreadnought/systems/Cyclonus-X_2v2_1.3.pas",
+        "coui://ui/mods/dreadnought/systems/Cyclonus-X_3v3_1.3.pas",
+        "coui://ui/mods/dreadnought/systems/Cyclonus-X_4v4_Standard_1.3.pas",
+        "coui://ui/mods/dreadnought/systems/Cyclonus-X_4v4_Orbital_1.3.pas",
+        "coui://ui/mods/dreadnought/systems/Cyclonus-X_5v5_Standard_1.3.pas",
+        "coui://ui/mods/dreadnought/systems/Cyclonus-X_5v5_Brawl_1.3.pas",
 
         "coui://ui/mods/dreadnought/systems/11v11_Aquamax_1.0.pas",
         "coui://ui/mods/dreadnought/systems/16v16_Aquamax_1.0.pas",

@@ -1,16 +1,16 @@
 {
-    "name": "Cyclonus-X 1v1",
-    "description": "Fight across this ancient weapon forged by the precursors and discover the true meaning behind the ancient tale of two warring siblings that circle this main planet.  1v1 mode: 5 spawn zones per player, 1 at center of Cyclonus-X and 2 each on Avid's Rock and Ellen's Rock",
+    "name": "Cyclonus-X 4v4 Standard",
+    "description": "Fight across this ancient weapon forged by the precursors and discover the true meaning behind the ancient tale of two warring siblings that circle this main planet. 4v4 mode: 5 spawns per player on 3 planets, can be on the same planet as allies and opponents or alone.  (Recommend gentleman's agreement for 2 separate 2v2s on each moon)",
     "creator": "Dreadnought",
     "version": "1.3",
     "planets": [
         {
             "name": "Cyclonus-X",
             "mass": 35000,
-            "position_x": 28000,
-            "position_y": -1899.9886474609375,
-            "velocity_x": 9.036542892456055,
-            "velocity_y": 133.17098999023438,
+            "position_x": 28100,
+            "position_y": -1700,
+            "velocity_x": 8.047929763793945,
+            "velocity_y": 133.02764892578125,
             "required_thrust_to_move": 0,
             "starting_planet": true,
             "respawn": false,
@@ -19,15 +19,15 @@
             "max_spawn_delay": 0,
             "planetCSG": [
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_cap_01.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         1,
                         0,
@@ -62,21 +62,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_cap_01_sub.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Subtract",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         1,
                         0,
@@ -111,21 +111,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_cap_01_add.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         1,
                         0,
@@ -160,21 +160,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_cap_01_add.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         0.30901697278022766,
                         -0.9510565400123596,
@@ -209,21 +209,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_cap_01_add.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         -0.8090170621871948,
                         -0.5877851843833923,
@@ -258,21 +258,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_cap_01_add.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         -0.8090170621871948,
                         0.5877851247787476,
@@ -307,21 +307,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_cap_01_add.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         0.3090171217918396,
                         0.9510564804077148,
@@ -356,21 +356,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_weapon_platforms.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         1,
                         0,
@@ -405,21 +405,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_platform.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         1,
                         0,
@@ -454,21 +454,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_platform.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         0.30901697278022766,
                         -0.9510565400123596,
@@ -503,21 +503,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_platform.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         -0.8090170621871948,
                         -0.5877851843833923,
@@ -552,21 +552,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_platform.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         -0.8090170621871948,
                         0.5877851247787476,
@@ -601,21 +601,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_platform.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         0.3090171217918396,
                         0.9510564804077148,
@@ -650,21 +650,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_trench_11.json",
-                    "height": 550,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         388.9087219238281,
                         388.9087219238281,
                         0
                     ],
+                    "height": 550,
                     "transform": [
                         0.7071067690849304,
                         5.960464477539063e-8,
@@ -699,21 +699,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_trench_11.json",
-                    "height": 550,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -388.9087219238281,
                         -388.9087219238281,
                         0
                     ],
+                    "height": 550,
                     "transform": [
                         0.7071067690849304,
                         5.960464477539063e-8,
@@ -748,21 +748,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_trench_11.json",
-                    "height": 550,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         388.9087219238281,
                         -388.9087219238281,
                         0
                     ],
+                    "height": 550,
                     "transform": [
                         0.7071067690849304,
                         -5.960464477539063e-8,
@@ -797,21 +797,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_trench_11.json",
-                    "height": 550,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -388.9087219238281,
                         388.9087219238281,
                         0
                     ],
+                    "height": 550,
                     "transform": [
                         0.7071067690849304,
                         -5.960464477539063e-8,
@@ -846,21 +846,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_02.json",
-                    "height": 550,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -289.3214111328125,
                         -23.928607940673828,
                         467.14080810546875
                     ],
+                    "height": 550,
                     "transform": [
                         0.8464568257331848,
                         -0.08242449164390564,
@@ -895,21 +895,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_02.json",
-                    "height": 550,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -186.23927307128906,
                         223.1229248046875,
                         466.93798828125
                     ],
+                    "height": 550,
                     "transform": [
                         0.5440255999565125,
                         0.7677075266838074,
@@ -944,21 +944,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_02.json",
-                    "height": 550.0000610351562,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         236.0054931640625,
                         -170.865234375,
                         466.4831848144531
                     ],
+                    "height": 550.0000610351562,
                     "transform": [
                         -0.6870020627975464,
                         -0.5864304304122925,
@@ -993,21 +993,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_cap_01.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         1,
                         0,
@@ -1042,21 +1042,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_cap_01_sub.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Subtract",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         1,
                         0,
@@ -1091,21 +1091,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_cap_01_add.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         1,
                         0,
@@ -1140,21 +1140,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_cap_01_add.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         0.30901697278022766,
                         -0.9510565400123596,
@@ -1189,21 +1189,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_cap_01_add.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         -0.8090170621871948,
                         -0.5877851843833923,
@@ -1238,21 +1238,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_cap_01_add.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         -0.8090170621871948,
                         0.5877851247787476,
@@ -1287,21 +1287,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_cap_01_add.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         0.3090171217918396,
                         0.9510564804077148,
@@ -1336,21 +1336,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_weapon_platforms.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         1,
                         0,
@@ -1385,21 +1385,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_platform.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         1,
                         0,
@@ -1434,21 +1434,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_platform.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         0.30901697278022766,
                         -0.9510565400123596,
@@ -1483,21 +1483,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_platform.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         -0.8090170621871948,
                         -0.5877851843833923,
@@ -1532,21 +1532,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_platform.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         -0.8090170621871948,
                         0.5877851247787476,
@@ -1581,21 +1581,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_platform.json",
-                    "height": 550,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         0,
                         0,
                         550
                     ],
+                    "height": 550,
                     "transform": [
                         0.3090171217918396,
                         0.9510564804077148,
@@ -1630,21 +1630,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_trench_11.json",
-                    "height": 550,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         388.9087219238281,
                         388.9087219238281,
                         0
                     ],
+                    "height": 550,
                     "transform": [
                         0.7071067690849304,
                         5.960464477539063e-8,
@@ -1679,21 +1679,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_trench_11.json",
-                    "height": 550,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -388.9087219238281,
                         -388.9087219238281,
                         0
                     ],
+                    "height": 550,
                     "transform": [
                         0.7071067690849304,
                         5.960464477539063e-8,
@@ -1728,21 +1728,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_trench_11.json",
-                    "height": 550,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         388.9087219238281,
                         -388.9087219238281,
                         0
                     ],
+                    "height": 550,
                     "transform": [
                         0.7071067690849304,
                         -5.960464477539063e-8,
@@ -1777,21 +1777,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_trench_11.json",
-                    "height": 550,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -388.9087219238281,
                         388.9087219238281,
                         0
                     ],
+                    "height": 550,
                     "transform": [
                         0.7071067690849304,
                         -5.960464477539063e-8,
@@ -1826,21 +1826,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_02.json",
-                    "height": 550,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -289.3214111328125,
                         -23.928607940673828,
                         467.14080810546875
                     ],
+                    "height": 550,
                     "transform": [
                         0.8464568257331848,
                         -0.08242449164390564,
@@ -1875,21 +1875,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_02.json",
-                    "height": 550,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -186.23927307128906,
                         223.1229248046875,
                         466.93798828125
                     ],
+                    "height": 550,
                     "transform": [
                         0.5440255999565125,
                         0.7677075266838074,
@@ -1924,21 +1924,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_02.json",
-                    "height": 550.0000610351562,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         236.0054931640625,
                         -170.865234375,
                         466.4831848144531
                     ],
+                    "height": 550.0000610351562,
                     "transform": [
                         -0.6870020627975464,
                         -0.5864304304122925,
@@ -1973,21 +1973,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": true,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_t2_medium_wide_ramp.json",
-                    "height": 549.9656982421875,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -416.694580078125,
                         150.02886962890625,
                         -326.0662841796875
                     ],
+                    "height": 549.9656982421875,
                     "transform": [
                         -0.7782954573631287,
                         0.47862231731414795,
@@ -2022,21 +2022,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_t2_medium_wide_ramp.json",
-                    "height": 549.9656982421875,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -416.694580078125,
                         150.02886962890625,
                         -326.0662841796875
                     ],
+                    "height": 549.9656982421875,
                     "transform": [
                         -0.7782954573631287,
                         0.47862231731414795,
@@ -2071,21 +2071,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_t2_medium_wide_ramp.json",
-                    "height": 549.8526000976562,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         5.2931976318359375,
                         440.620361328125,
                         -328.88232421875
                     ],
+                    "height": 549.8526000976562,
                     "transform": [
                         0.016238167881965637,
                         -1.3998405933380127,
@@ -2120,21 +2120,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_t2_medium_wide_ramp.json",
-                    "height": 549.8526000976562,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         5.2931976318359375,
                         440.620361328125,
                         -328.88232421875
                     ],
+                    "height": 549.8526000976562,
                     "transform": [
                         0.016238167881965637,
                         -1.3998405933380127,
@@ -2169,21 +2169,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_t2_medium_wide_ramp.json",
-                    "height": 549.8658447265625,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         417.092529296875,
                         125.37025451660156,
                         -335.661376953125
                     ],
+                    "height": 549.8658447265625,
                     "transform": [
                         -0.8216472864151001,
                         -0.3964335322380066,
@@ -2218,21 +2218,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_t2_medium_wide_ramp.json",
-                    "height": 549.8658447265625,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         417.092529296875,
                         125.37025451660156,
                         -335.661376953125
                     ],
+                    "height": 549.8658447265625,
                     "transform": [
                         -0.8216472864151001,
                         -0.3964335322380066,
@@ -2267,21 +2267,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_t2_medium_wide_ramp.json",
-                    "height": 549.9639282226562,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         258.28607177734375,
                         -356.2720947265625,
                         -329.876953125
                     ],
+                    "height": 549.9639282226562,
                     "transform": [
                         -0.4661062955856323,
                         1.1447442770004272,
@@ -2316,21 +2316,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_t2_medium_wide_ramp.json",
-                    "height": 549.9639282226562,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         258.28607177734375,
                         -356.2720947265625,
                         -329.876953125
                     ],
+                    "height": 549.9639282226562,
                     "transform": [
                         -0.4661062955856323,
                         1.1447442770004272,
@@ -2365,21 +2365,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_t2_medium_wide_ramp.json",
-                    "height": 549.7909545898438,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -251.008056640625,
                         -356.347412109375,
                         -335.08441162109375
                     ],
+                    "height": 549.7909545898438,
                     "transform": [
                         -0.49465298652648926,
                         -1.1431429386138916,
@@ -2414,21 +2414,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_t2_medium_wide_ramp.json",
-                    "height": 549.7909545898438,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -251.008056640625,
                         -356.347412109375,
                         -335.08441162109375
                     ],
+                    "height": 549.7909545898438,
                     "transform": [
                         -0.49465298652648926,
                         -1.1431429386138916,
@@ -2463,21 +2463,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": true,
                     "flooded": false,
+                    "pathable": true,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_09.json",
-                    "height": 549.815673828125,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -80.52931213378906,
                         -543.5655517578125,
                         -18.675399780273438
                     ],
+                    "height": 549.815673828125,
                     "transform": [
                         1.1770801544189453,
                         -0.014258012175559998,
@@ -2512,21 +2512,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_09.json",
-                    "height": 549.815673828125,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -80.52931213378906,
                         -543.5655517578125,
                         -18.675399780273438
                     ],
+                    "height": 549.815673828125,
                     "transform": [
                         1.1770801544189453,
                         -0.014258012175559998,
@@ -2561,21 +2561,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_09.json",
-                    "height": 549.8465576171875,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         85.71629333496094,
                         -542.7913818359375,
                         -19.012924194335938
                     ],
+                    "height": 549.8465576171875,
                     "transform": [
                         1.1754485368728638,
                         0.0024504363536834717,
@@ -2610,21 +2610,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_09.json",
-                    "height": 549.8465576171875,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         85.71629333496094,
                         -542.7913818359375,
                         -19.012924194335938
                     ],
+                    "height": 549.8465576171875,
                     "transform": [
                         1.1754485368728638,
                         0.0024504363536834717,
@@ -2659,21 +2659,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_09.json",
-                    "height": 549.815673828125,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         492.0766296386719,
                         -244.5589141845703,
                         -18.675399780273438
                     ],
+                    "height": 549.815673828125,
                     "transform": [
                         0.5298625230789185,
                         0.03244559466838837,
@@ -2708,21 +2708,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_09.json",
-                    "height": 549.815673828125,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         492.0766296386719,
                         -244.5589141845703,
                         -18.675399780273438
                     ],
+                    "height": 549.815673828125,
                     "transform": [
                         0.5298625230789185,
                         0.03244559466838837,
@@ -2757,21 +2757,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_09.json",
-                    "height": 549.8465576171875,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         542.7130737304688,
                         -86.21072387695312,
                         -19.012924194335938
                     ],
+                    "height": 549.8465576171875,
                     "transform": [
                         0.18682844936847687,
                         0.04000839591026306,
@@ -2806,21 +2806,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_09.json",
-                    "height": 549.8465576171875,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         542.7130737304688,
                         -86.21072387695312,
                         -19.012924194335938
                     ],
+                    "height": 549.8465576171875,
                     "transform": [
                         0.18682844936847687,
                         0.04000839591026306,
@@ -2855,21 +2855,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_09.json",
-                    "height": 549.815673828125,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         384.6493835449219,
                         392.4198303222656,
                         -18.675399780273438
                     ],
+                    "height": 549.815673828125,
                     "transform": [
                         -0.8496071100234985,
                         0.03431057929992676,
@@ -2904,21 +2904,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_09.json",
-                    "height": 549.815673828125,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         384.6493835449219,
                         392.4198303222656,
                         -18.675399780273438
                     ],
+                    "height": 549.815673828125,
                     "transform": [
                         -0.8496071100234985,
                         0.03431057929992676,
@@ -2953,21 +2953,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_09.json",
-                    "height": 549.8465576171875,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         249.69883728027344,
                         489.5102233886719,
                         -19.012924194335938
                     ],
+                    "height": 549.8465576171875,
                     "transform": [
                         -1.0599822998046875,
                         0.0222761332988739,
@@ -3002,21 +3002,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_09.json",
-                    "height": 549.8465576171875,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         249.69883728027344,
                         489.5102233886719,
                         -19.012924194335938
                     ],
+                    "height": 549.8465576171875,
                     "transform": [
                         -1.0599822998046875,
                         0.0222761332988739,
@@ -3051,21 +3051,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_09.json",
-                    "height": 549.815673828125,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -254.35023498535156,
                         487.08770751953125,
                         -18.675399780273438
                     ],
+                    "height": 549.815673828125,
                     "transform": [
                         -1.0549486875534058,
                         -0.011240512132644653,
@@ -3100,21 +3100,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_09.json",
-                    "height": 549.815673828125,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -254.35023498535156,
                         487.08770751953125,
                         -18.675399780273438
                     ],
+                    "height": 549.815673828125,
                     "transform": [
                         -1.0549486875534058,
                         -0.011240512132644653,
@@ -3149,21 +3149,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_09.json",
-                    "height": 549.8465576171875,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -388.3907165527344,
                         388.74468994140625,
                         -19.012924194335938
                     ],
+                    "height": 549.8465576171875,
                     "transform": [
                         -0.8419334888458252,
                         -0.02624109387397766,
@@ -3198,21 +3198,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_09.json",
-                    "height": 549.8465576171875,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -388.3907165527344,
                         388.74468994140625,
                         -19.012924194335938
                     ],
+                    "height": 549.8465576171875,
                     "transform": [
                         -0.8419334888458252,
                         -0.02624109387397766,
@@ -3247,21 +3247,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_09.json",
-                    "height": 549.815673828125,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -541.8464965820312,
                         -91.38306427001953,
                         -18.675399780273438
                     ],
+                    "height": 549.815673828125,
                     "transform": [
                         0.19761300086975098,
                         -0.04125753045082092,
@@ -3296,21 +3296,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_09.json",
-                    "height": 549.815673828125,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -541.8464965820312,
                         -91.38306427001953,
                         -18.675399780273438
                     ],
+                    "height": 549.815673828125,
                     "transform": [
                         0.19761300086975098,
                         -0.04125753045082092,
@@ -3345,21 +3345,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_09.json",
-                    "height": 549.8465576171875,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -489.73748779296875,
                         -249.2528076171875,
                         -19.012924194335938
                     ],
+                    "height": 549.8465576171875,
                     "transform": [
                         0.5396387577056885,
                         -0.03849406540393829,
@@ -3394,21 +3394,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_09.json",
-                    "height": 549.8465576171875,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         -489.73748779296875,
                         -249.2528076171875,
                         -19.012924194335938
                     ],
+                    "height": 549.8465576171875,
                     "transform": [
                         0.5396387577056885,
                         -0.03849406540393829,
@@ -3443,21 +3443,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_08.json",
-                    "height": 549.88818359375,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         307.57861328125,
                         426.6662902832031,
                         160.4003448486328
                     ],
+                    "height": 549.88818359375,
                     "transform": [
                         0.17559507489204407,
                         -0.8101214170455933,
@@ -3491,22 +3491,22 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 1,
-                    "pathable": false,
+                    "twinId": 0,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_08.json",
-                    "height": 549.88818359375,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         307.57861328125,
                         426.6662902832031,
                         160.4003448486328
                     ],
+                    "height": 549.88818359375,
                     "transform": [
                         0.17559507489204407,
                         -0.8101214170455933,
@@ -3540,22 +3540,22 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 1,
-                    "pathable": false,
+                    "twinId": 0,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_08.json",
-                    "height": 549.7361450195312,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         499.266357421875,
                         -161.38577270507812,
                         164.0048370361328
                     ],
+                    "height": 549.7361450195312,
                     "transform": [
                         0.2877378761768341,
                         0.3039621114730835,
@@ -3589,22 +3589,22 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 2,
-                    "pathable": false,
+                    "twinId": 0,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_LongitudePinch",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_08.json",
-                    "height": 549.7361450195312,
+                    "proj": "BP_LongitudePinch",
                     "op": "BO_Add",
                     "position": [
                         499.266357421875,
                         -161.38577270507812,
                         164.0048370361328
                     ],
+                    "height": 549.7361450195312,
                     "transform": [
                         0.2877378761768341,
                         0.3039621114730835,
@@ -3638,9 +3638,9 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 2,
-                    "pathable": false,
+                    "twinId": 0,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 }
@@ -4100,24 +4100,78 @@
             "landing_zones": {
                 "list": [
                     [
-                        8.726639747619629,
-                        549.6744384765625,
-                        -4.426576614379883
+                        6.854099273681641,
+                        549.8182373046875,
+                        0.27796268463134766
                     ],
                     [
-                        319.5392150878906,
-                        -447.49237060546875,
-                        4.5852508544921875
+                        6.854099273681641,
+                        549.8182373046875,
+                        0.27796268463134766
+                    ],
+                    [
+                        6.854099273681641,
+                        549.8182373046875,
+                        0.27796268463134766
+                    ],
+                    [
+                        6.854099273681641,
+                        549.8182373046875,
+                        0.27796268463134766
+                    ],
+                    [
+                        321.8756103515625,
+                        -445.822021484375,
+                        5.418174743652344
+                    ],
+                    [
+                        321.8756103515625,
+                        -445.822021484375,
+                        5.418174743652344
+                    ],
+                    [
+                        321.8756103515625,
+                        -445.822021484375,
+                        5.418174743652344
+                    ],
+                    [
+                        321.8756103515625,
+                        -445.822021484375,
+                        5.418174743652344
                     ]
                 ],
                 "rules": [
                     {
-                        "min": 2,
-                        "max": 2
+                        "min": 8,
+                        "max": 8
                     },
                     {
-                        "min": 2,
-                        "max": 2
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
                     }
                 ]
             },
@@ -4145,10 +4199,10 @@
         {
             "name": "Avid's Rock",
             "mass": 10000,
-            "position_x": 25900.001953125,
-            "position_y": -16499.990234375,
-            "velocity_x": 116.84991455078125,
-            "velocity_y": 117.66360473632812,
+            "position_x": 26700.00390625,
+            "position_y": -13500.015625,
+            "velocity_x": 128.5583953857422,
+            "velocity_y": 118.7298583984375,
             "required_thrust_to_move": 2,
             "starting_planet": true,
             "respawn": false,
@@ -4157,15 +4211,15 @@
             "max_spawn_delay": 0,
             "planetCSG": [
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_plateau_08.json",
-                    "height": 476.11773681640625,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         41.99375915527344,
                         465.7419128417969,
                         89.49369049072266
                     ],
+                    "height": 476.11773681640625,
                     "transform": [
                         -0.018327243626117706,
                         -0.9460270404815674,
@@ -4200,21 +4254,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_plateau_06.json",
-                    "height": 476.2173156738281,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         87.47398376464844,
                         438.85504150390625,
                         162.90328979492188
                     ],
+                    "height": 476.2173156738281,
                     "transform": [
                         0.5903584957122803,
                         0.9620581269264221,
@@ -4249,21 +4303,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_plateau_04.json",
-                    "height": 475.9165954589844,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         43.782470703125,
                         244.4268798828125,
                         405.9990234375
                     ],
+                    "height": 475.9165954589844,
                     "transform": [
                         0.45273756980895996,
                         0.9719431400299072,
@@ -4298,21 +4352,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_plateau_09.json",
-                    "height": 476.280029296875,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         41.51265335083008,
                         460.4060974121094,
                         114.6540298461914
                     ],
+                    "height": 476.280029296875,
                     "transform": [
                         0.8224083185195923,
                         -0.03844758868217468,
@@ -4347,21 +4401,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_plateau_09.json",
-                    "height": 475.7015686035156,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         81.35969543457031,
                         420.07550048828125,
                         207.86810302734375
                     ],
+                    "height": 475.7015686035156,
                     "transform": [
                         0.0652642548084259,
                         1.1259961128234863,
@@ -4396,21 +4450,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_plateau_09.json",
-                    "height": 476.0965881347656,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         14.029702186584473,
                         467.36102294921875,
                         89.69276428222656
                     ],
+                    "height": 476.0965881347656,
                     "transform": [
                         0.8080825209617615,
                         0.17621025443077087,
@@ -4445,21 +4499,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_plateau_06.json",
-                    "height": 476.2344055175781,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         -274.95404052734375,
                         274.95404052734375,
                         274.95404052734375
                     ],
+                    "height": 476.2344055175781,
                     "transform": [
                         -0.8350601196289062,
                         0.7376807332038879,
@@ -4494,21 +4548,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_volcano_06.json",
-                    "height": 476.7332763671875,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         -155.89109802246094,
                         334.4803466796875,
                         301.8203430175781
                     ],
+                    "height": 476.7332763671875,
                     "transform": [
                         0.6641013026237488,
                         -0.39327365159988403,
@@ -4543,21 +4597,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_plateau_08.json",
-                    "height": 476.11773681640625,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         41.99375915527344,
                         465.7419128417969,
                         89.49369049072266
                     ],
+                    "height": 476.11773681640625,
                     "transform": [
                         -0.018327243626117706,
                         -0.9460270404815674,
@@ -4592,21 +4646,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_plateau_06.json",
-                    "height": 476.2173156738281,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         87.47398376464844,
                         438.85504150390625,
                         162.90328979492188
                     ],
+                    "height": 476.2173156738281,
                     "transform": [
                         0.5903584957122803,
                         0.9620581269264221,
@@ -4641,21 +4695,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_plateau_04.json",
-                    "height": 475.9165954589844,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         43.782470703125,
                         244.4268798828125,
                         405.9990234375
                     ],
+                    "height": 475.9165954589844,
                     "transform": [
                         0.45273756980895996,
                         0.9719431400299072,
@@ -4690,21 +4744,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_plateau_09.json",
-                    "height": 476.280029296875,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         41.51265335083008,
                         460.4060974121094,
                         114.6540298461914
                     ],
+                    "height": 476.280029296875,
                     "transform": [
                         0.8224083185195923,
                         -0.03844758868217468,
@@ -4739,21 +4793,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_plateau_09.json",
-                    "height": 475.7015686035156,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         81.35969543457031,
                         420.07550048828125,
                         207.86810302734375
                     ],
+                    "height": 475.7015686035156,
                     "transform": [
                         0.0652642548084259,
                         1.1259961128234863,
@@ -4788,21 +4842,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_plateau_09.json",
-                    "height": 476.0965881347656,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         14.029702186584473,
                         467.36102294921875,
                         89.69276428222656
                     ],
+                    "height": 476.0965881347656,
                     "transform": [
                         0.8080825209617615,
                         0.17621025443077087,
@@ -4837,21 +4891,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_plateau_06.json",
-                    "height": 476.2344055175781,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         -274.95404052734375,
                         274.95404052734375,
                         274.95404052734375
                     ],
+                    "height": 476.2344055175781,
                     "transform": [
                         -0.8350601196289062,
                         0.7376807332038879,
@@ -4886,21 +4940,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_volcano_06.json",
-                    "height": 476.7332763671875,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         -155.89109802246094,
                         334.4803466796875,
                         301.8203430175781
                     ],
+                    "height": 476.7332763671875,
                     "transform": [
                         0.6641013026237488,
                         -0.39327365159988403,
@@ -4935,21 +4989,21 @@
                     ],
                     "mirrored": true,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/mountain/brushes/mountain_plateau_04.json",
-                    "height": 473.60418701171875,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         461.1393737792969,
                         103.34645080566406,
                         -31.159591674804688
                     ],
+                    "height": 473.60418701171875,
                     "transform": [
                         -0.033942922949790955,
                         -0.5208210945129395,
@@ -4983,22 +5037,22 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 2,
-                    "pathable": false,
+                    "twinId": 0,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/mountain/brushes/mountain_plateau_04.json",
-                    "height": 473.60418701171875,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         461.1393737792969,
                         103.34645080566406,
                         -31.159591674804688
                     ],
+                    "height": 473.60418701171875,
                     "transform": [
                         -0.033942922949790955,
                         -0.5208210945129395,
@@ -5032,22 +5086,22 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 2,
-                    "pathable": false,
+                    "twinId": 0,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/mountain/brushes/mountain_plateau_04.json",
-                    "height": 473.2867736816406,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         453.71697998046875,
                         112.47605895996094,
                         -74.09741973876953
                     ],
+                    "height": 473.2867736816406,
                     "transform": [
                         -0.5693076848983765,
                         -0.20813944935798645,
@@ -5081,22 +5135,22 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 3,
-                    "pathable": false,
+                    "twinId": 0,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/mountain/brushes/mountain_plateau_04.json",
-                    "height": 473.2867736816406,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         453.71697998046875,
                         112.47605895996094,
                         -74.09741973876953
                     ],
+                    "height": 473.2867736816406,
                     "transform": [
                         -0.5693076848983765,
                         -0.20813944935798645,
@@ -5130,22 +5184,22 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 3,
-                    "pathable": false,
+                    "twinId": 0,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
-                    "height": 472.79986572265625,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         439.370361328125,
                         124.41404724121094,
                         -122.53382110595703
                     ],
+                    "height": 472.79986572265625,
                     "transform": [
                         -0.4409225285053253,
                         -0.14884279668331146,
@@ -5179,22 +5233,22 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 4,
-                    "pathable": false,
+                    "twinId": 0,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
-                    "height": 472.79986572265625,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         439.370361328125,
                         124.41404724121094,
                         -122.53382110595703
                     ],
+                    "height": 472.79986572265625,
                     "transform": [
                         -0.4409225285053253,
                         -0.14884279668331146,
@@ -5228,22 +5282,22 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 4,
-                    "pathable": false,
+                    "twinId": 0,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
-                    "height": 475.074951171875,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         -357.00177001953125,
                         -202.33123779296875,
                         -239.39093017578125
                     ],
+                    "height": 475.074951171875,
                     "transform": [
                         0.3456818461418152,
                         -0.7560350298881531,
@@ -5277,22 +5331,22 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 5,
-                    "pathable": false,
+                    "twinId": 0,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
-                    "height": 475.074951171875,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         -357.00177001953125,
                         -202.33123779296875,
                         -239.39093017578125
                     ],
+                    "height": 475.074951171875,
                     "transform": [
                         0.3456818461418152,
                         -0.7560350298881531,
@@ -5326,22 +5380,22 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 5,
-                    "pathable": false,
+                    "twinId": 0,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
-                    "height": 474.8066101074219,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         -392.1822509765625,
                         46.00689697265625,
                         -263.66217041015625
                     ],
+                    "height": 474.8066101074219,
                     "transform": [
                         -0.29980218410491943,
                         -0.6438799500465393,
@@ -5375,22 +5429,22 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 6,
-                    "pathable": false,
+                    "twinId": 0,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
-                    "height": 474.8066101074219,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         -392.1822509765625,
                         46.00689697265625,
                         -263.66217041015625
                     ],
+                    "height": 474.8066101074219,
                     "transform": [
                         -0.29980218410491943,
                         -0.6438799500465393,
@@ -5424,22 +5478,22 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 6,
-                    "pathable": false,
+                    "twinId": 0,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": true
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_plateau_06.json",
-                    "height": 475.0793151855469,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         -29.844520568847656,
                         -466.7281494140625,
                         -83.51336669921875
                     ],
+                    "height": 475.0793151855469,
                     "transform": [
                         1.1427910327911377,
                         -0.08598225563764572,
@@ -5473,22 +5527,22 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 7,
-                    "pathable": false,
+                    "twinId": 0,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_plateau_06.json",
-                    "height": 475.0793151855469,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         -29.844520568847656,
                         -466.7281494140625,
                         -83.51336669921875
                     ],
+                    "height": 475.0793151855469,
                     "transform": [
                         1.1427910327911377,
                         -0.08598225563764572,
@@ -5522,22 +5576,22 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 7,
-                    "pathable": false,
+                    "twinId": 0,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_volcano_04.json",
-                    "height": 474.7779846191406,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         -32.62192153930664,
                         -473.65203857421875,
                         1.9245071411132812
                     ],
+                    "height": 474.7779846191406,
                     "transform": [
                         0.8460033535957336,
                         -0.058029644191265106,
@@ -5572,21 +5626,21 @@
                     ],
                     "mirrored": false,
                     "twinId": 0,
-                    "pathable": false,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_plateau_04.json",
-                    "height": 474.56988525390625,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         -271.7021484375,
                         -388.133056640625,
                         -27.33606719970703
                     ],
+                    "height": 474.56988525390625,
                     "transform": [
                         1.050013542175293,
                         -0.7999531626701355,
@@ -5620,22 +5674,22 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 9,
-                    "pathable": false,
+                    "twinId": 0,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 },
                 {
-                    "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_plateau_04.json",
-                    "height": 474.56988525390625,
+                    "proj": "BP_Bend",
                     "op": "BO_Add",
                     "position": [
                         -271.7021484375,
                         -388.133056640625,
                         -27.33606719970703
                     ],
+                    "height": 474.56988525390625,
                     "transform": [
                         1.050013542175293,
                         -0.7999531626701355,
@@ -5669,9 +5723,9 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 9,
-                    "pathable": false,
+                    "twinId": 0,
                     "flooded": false,
+                    "pathable": false,
                     "mergeable": false,
                     "no_features": false
                 }
@@ -6051,42 +6105,150 @@
             "landing_zones": {
                 "list": [
                     [
-                        -106.33433532714844,
-                        -263.97064208984375,
-                        -379.48876953125
+                        -110.45343017578125,
+                        -267.881103515625,
+                        375.6231689453125
                     ],
                     [
-                        -106.33433532714844,
-                        -263.97064208984375,
-                        379.48876953125
+                        -110.45343017578125,
+                        -267.881103515625,
+                        375.6231689453125
                     ],
                     [
-                        -160.76824951171875,
-                        215.9591064453125,
-                        -394.2199401855469
+                        -110.45343017578125,
+                        -267.881103515625,
+                        375.6231689453125
                     ],
                     [
-                        -160.76824951171875,
-                        215.9591064453125,
-                        394.2199401855469
+                        -110.45343017578125,
+                        -267.881103515625,
+                        375.6231689453125
+                    ],
+                    [
+                        -110.45343017578125,
+                        -267.881103515625,
+                        -375.6231689453125
+                    ],
+                    [
+                        -110.45343017578125,
+                        -267.881103515625,
+                        -375.6231689453125
+                    ],
+                    [
+                        -110.45343017578125,
+                        -267.881103515625,
+                        -375.6231689453125
+                    ],
+                    [
+                        -110.45343017578125,
+                        -267.881103515625,
+                        -375.6231689453125
+                    ],
+                    [
+                        -166.89340209960938,
+                        214.02874755859375,
+                        392.7132568359375
+                    ],
+                    [
+                        -166.89340209960938,
+                        214.02874755859375,
+                        392.7132568359375
+                    ],
+                    [
+                        -166.89340209960938,
+                        214.02874755859375,
+                        392.7132568359375
+                    ],
+                    [
+                        -166.89340209960938,
+                        214.02874755859375,
+                        392.7132568359375
+                    ],
+                    [
+                        -166.89340209960938,
+                        214.02874755859375,
+                        -392.7132568359375
+                    ],
+                    [
+                        -166.89340209960938,
+                        214.02874755859375,
+                        -392.7132568359375
+                    ],
+                    [
+                        -166.89340209960938,
+                        214.02874755859375,
+                        -392.7132568359375
+                    ],
+                    [
+                        -166.89340209960938,
+                        214.02874755859375,
+                        -392.7132568359375
                     ]
                 ],
                 "rules": [
                     {
-                        "min": 2,
-                        "max": 2
+                        "min": 8,
+                        "max": 8
                     },
                     {
-                        "min": 2,
-                        "max": 2
+                        "min": 8,
+                        "max": 8
                     },
                     {
-                        "min": 2,
-                        "max": 2
+                        "min": 8,
+                        "max": 8
                     },
                     {
-                        "min": 2,
-                        "max": 2
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
                     }
                 ]
             },
@@ -6104,7 +6266,7 @@
                 "biome": "lava",
                 "symmetryType": "terrain and CSG",
                 "symmetricalMetal": true,
-                "symmetricalStarts": true,
+                "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
                 "landingZoneSize": 0,
@@ -6114,10 +6276,10 @@
         {
             "name": "Ellen's Rock",
             "mass": 10000,
-            "position_x": 31200,
-            "position_y": 12500,
-            "velocity_x": 115.36205291748047,
-            "velocity_y": 109.54308319091797,
+            "position_x": 32100.00390625,
+            "position_y": 13199.9833984375,
+            "velocity_x": 110.910888671875,
+            "velocity_y": 105.41337585449219,
             "required_thrust_to_move": 2,
             "starting_planet": true,
             "respawn": false,
@@ -6168,7 +6330,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 4,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -6217,7 +6379,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 5,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -6266,7 +6428,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 7,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -6315,7 +6477,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 8,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -6364,7 +6526,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 11,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -6413,7 +6575,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 12,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -6462,7 +6624,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 13,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -6511,7 +6673,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 14,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -6560,7 +6722,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 16,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -6609,7 +6771,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 17,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -6658,7 +6820,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 18,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -6707,7 +6869,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 19,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -6756,7 +6918,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 21,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -6805,7 +6967,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 24,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -6903,7 +7065,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 25,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -6952,7 +7114,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 26,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7001,7 +7163,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 27,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7050,7 +7212,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 28,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7099,7 +7261,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 31,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7148,7 +7310,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 32,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7197,7 +7359,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 34,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7246,7 +7408,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 35,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7295,7 +7457,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 36,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7344,7 +7506,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 37,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7393,7 +7555,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 38,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7442,7 +7604,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 39,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7491,7 +7653,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 41,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7540,7 +7702,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 43,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7589,7 +7751,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 45,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7638,7 +7800,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 47,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7687,7 +7849,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 48,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7736,7 +7898,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 49,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7785,7 +7947,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 50,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7834,7 +7996,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 51,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7883,7 +8045,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 53,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7932,7 +8094,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 54,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -7981,7 +8143,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 55,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -8030,7 +8192,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 56,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -8079,7 +8241,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 57,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -8128,7 +8290,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 60,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -8177,7 +8339,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 61,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -8226,7 +8388,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 62,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -8275,7 +8437,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 64,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -8324,7 +8486,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 65,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -8373,7 +8535,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 69,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -8422,7 +8584,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 72,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -8471,7 +8633,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 73,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -8520,7 +8682,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 74,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -8618,7 +8780,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 76,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": false,
@@ -8667,7 +8829,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 77,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -8716,7 +8878,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 78,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -8765,7 +8927,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 79,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -8814,7 +8976,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 80,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -8961,7 +9123,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 81,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9010,7 +9172,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 82,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9059,7 +9221,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 83,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9108,7 +9270,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 84,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9157,7 +9319,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 85,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9206,7 +9368,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 88,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9255,7 +9417,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 89,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9304,7 +9466,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 99,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9353,7 +9515,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 4,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9402,7 +9564,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 5,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9451,7 +9613,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 7,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9500,7 +9662,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 8,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9549,7 +9711,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 11,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9598,7 +9760,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 12,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9647,7 +9809,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 13,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9696,7 +9858,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 14,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9745,7 +9907,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 16,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9794,7 +9956,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 17,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9843,7 +10005,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 18,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9892,7 +10054,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 19,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9941,7 +10103,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 21,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -9990,7 +10152,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 24,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -10039,7 +10201,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 25,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -10088,7 +10250,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 26,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -10137,7 +10299,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 27,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -10186,7 +10348,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 28,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -10235,7 +10397,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 31,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -10284,7 +10446,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 32,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -10333,7 +10495,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 34,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -10382,7 +10544,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 35,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -10431,7 +10593,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 36,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -10480,7 +10642,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 37,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -10529,7 +10691,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 38,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -10578,7 +10740,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 39,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -10627,7 +10789,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 41,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -10676,7 +10838,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 43,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -10725,7 +10887,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 45,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -10774,7 +10936,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 47,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -10823,7 +10985,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 48,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -10872,7 +11034,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 49,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -10921,7 +11083,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 50,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -10970,7 +11132,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 51,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11019,7 +11181,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 53,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11068,7 +11230,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 54,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11117,7 +11279,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 55,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11166,7 +11328,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 56,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11215,7 +11377,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 57,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11264,7 +11426,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 60,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11313,7 +11475,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 61,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11362,7 +11524,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 62,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11411,7 +11573,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 64,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11460,7 +11622,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 65,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11509,7 +11671,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 69,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11558,7 +11720,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 72,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11607,7 +11769,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 73,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11656,7 +11818,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 74,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11705,7 +11867,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 76,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11754,7 +11916,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 77,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11803,7 +11965,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 78,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11852,7 +12014,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 79,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11901,7 +12063,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 80,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11950,7 +12112,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 81,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -11999,7 +12161,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 82,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -12048,7 +12210,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 83,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -12097,7 +12259,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 84,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -12146,7 +12308,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 85,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -12195,7 +12357,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 88,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -12244,7 +12406,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 89,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -12293,7 +12455,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 99,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -12342,7 +12504,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 100,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -12391,7 +12553,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 100,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -12440,7 +12602,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 101,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -12489,7 +12651,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 101,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -12538,7 +12700,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 102,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -12587,7 +12749,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 102,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -12636,7 +12798,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 104,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -12685,7 +12847,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 104,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -12734,7 +12896,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 105,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -12783,7 +12945,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 105,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -12832,7 +12994,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 107,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -12881,7 +13043,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 107,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -12930,7 +13092,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 108,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -12979,7 +13141,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 108,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -13028,7 +13190,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 109,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -13077,7 +13239,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 109,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -13126,7 +13288,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 110,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -13175,7 +13337,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 110,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -13224,7 +13386,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 111,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -13273,7 +13435,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 111,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -13662,6 +13824,36 @@
                     [
                         -49.27315139770508,
                         -210.77362060546875,
+                        -422.3104248046875
+                    ],
+                    [
+                        -49.27315139770508,
+                        -210.77362060546875,
+                        -422.3104248046875
+                    ],
+                    [
+                        -49.27315139770508,
+                        -210.77362060546875,
+                        -422.3104248046875
+                    ],
+                    [
+                        -49.27315139770508,
+                        -210.77362060546875,
+                        422.3104248046875
+                    ],
+                    [
+                        -49.27315139770508,
+                        -210.77362060546875,
+                        422.3104248046875
+                    ],
+                    [
+                        -49.27315139770508,
+                        -210.77362060546875,
+                        422.3104248046875
+                    ],
+                    [
+                        -49.27315139770508,
+                        -210.77362060546875,
                         422.3104248046875
                     ],
                     [
@@ -13672,25 +13864,103 @@
                     [
                         175.0334014892578,
                         167.0570068359375,
+                        -408.41845703125
+                    ],
+                    [
+                        175.0334014892578,
+                        167.0570068359375,
+                        -408.41845703125
+                    ],
+                    [
+                        175.0334014892578,
+                        167.0570068359375,
+                        -408.41845703125
+                    ],
+                    [
+                        175.0334014892578,
+                        167.0570068359375,
+                        408.41845703125
+                    ],
+                    [
+                        175.0334014892578,
+                        167.0570068359375,
+                        408.41845703125
+                    ],
+                    [
+                        175.0334014892578,
+                        167.0570068359375,
+                        408.41845703125
+                    ],
+                    [
+                        175.0334014892578,
+                        167.0570068359375,
                         408.41845703125
                     ]
                 ],
                 "rules": [
                     {
-                        "min": 2,
-                        "max": 2
+                        "min": 8,
+                        "max": 8
                     },
                     {
-                        "min": 2,
-                        "max": 2
+                        "min": 8,
+                        "max": 8
                     },
                     {
-                        "min": 2,
-                        "max": 2
+                        "min": 8,
+                        "max": 8
                     },
                     {
-                        "min": 2,
-                        "max": 2
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
+                    },
+                    {
+                        "min": 8,
+                        "max": 8
                     }
                 ]
             },
@@ -13708,7 +13978,7 @@
                 "biome": "earth",
                 "symmetryType": "terrain and CSG",
                 "symmetricalMetal": true,
-                "symmetricalStarts": true,
+                "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
                 "landingZoneSize": 0,
