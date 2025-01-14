@@ -1,5 +1,5 @@
 {
-    "name": "Avalanche",
+    "name": "Avalanche 1v1",
     "description": "Fight across these old abandoned mansion estates and weaponry for dominance.  The bits of land connecting the three small oceans are pirhanna and land  accessible, beware. Or forgo those resources for other bountiful strategic land points on the backside of the planet.",
     "creator": "Dreadnought",
     "version": "1.6",
