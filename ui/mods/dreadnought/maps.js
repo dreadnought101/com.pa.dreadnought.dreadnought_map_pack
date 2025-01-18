@@ -31,7 +31,7 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
 
         "coui://ui/mods/dreadnought/systems/1v1-2v2_Ignitus_1.3.pas",
         "coui://ui/mods/dreadnought/systems/1v1-2v2_Mion-9_1.1.pas",
-		"coui://ui/mods/dreadnought/systems/1v1-2v2_Heartbreak-Ridge_1.4.pas",
+		"coui://ui/mods/dreadnought/systems/1v1-2v2_Heartbreak-Ridge_1.5.pas",
         "coui://ui/mods/dreadnought/systems/1v1-2v2_Burning-Oasis_1.5.pas",
         "coui://ui/mods/dreadnought/systems/1v1-2v2_Snapper_1.4.pas",
 
