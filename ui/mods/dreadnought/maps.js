@@ -40,7 +40,7 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
         "coui://ui/mods/dreadnought/systems/1v1-3v3_yukon-ho_3.3.pas",
 
         "coui://ui/mods/dreadnought/systems/4v4_Sabbath-Station_1.0.pas",
-        "coui://ui/mods/dreadnought/systems/4v4_Psycho_1.0.pas",
+        "coui://ui/mods/dreadnought/systems/4v4_Psycho_1.1.pas",
 
         "coui://ui/mods/dreadnought/systems/5v5_Oculan-Mining-Facility_1.1.pas",
         "coui://ui/mods/dreadnought/systems/5v5_TNT_1.2.pas",
