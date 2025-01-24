@@ -1,8 +1,8 @@
 {
-    "name": "Acraphon_1v1",
-    "description": "Fight over this ancient naval factory and utilize its many abandoned resources to take down your opponent.  There is a small secondary naval planet that spawns in 20-22 minutes.",
+    "name": "Acraphon 1v1-2v2",
+    "description": "Fight over this ancient naval factory and utilize its many abandoned resources to take down your opponent.  There is a small secondary naval planet that spawns in 20-22 minutes. 2v2 shared/unshared supported.",
     "creator": "Dreadnought",
-    "version": "1.5",
+    "version": "1.6",
     "planets": [
         {
             "name": "Acraphon",
@@ -7761,6 +7761,16 @@
                         38.351966857910156,
                         535.462158203125
                     ],
+					[
+                        -0.31855785846710205,
+                        38.351966857910156,
+                        535.462158203125
+                    ],
+                    [
+                        -0.31855785846710205,
+                        38.351966857910156,
+                        -535.462158203125
+                    ],
                     [
                         -0.31855785846710205,
                         38.351966857910156,
@@ -7769,12 +7779,19 @@
                 ],
                 "rules": [
                     {
-                        "min": 0,
-                        "max": 32
+                        "min": 2,
+                        "max": 4
+                    },
+					{
+                        "min": 4,
+                        "max": 4
+                    },{
+                        "min": 2,
+                        "max": 4
                     },
                     {
-                        "min": 0,
-                        "max": 32
+                        "min": 4,
+                        "max": 4
                     }
                 ]
             },
