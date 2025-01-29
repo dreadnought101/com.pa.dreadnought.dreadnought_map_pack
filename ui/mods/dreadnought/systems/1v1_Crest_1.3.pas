@@ -2,7 +2,7 @@
     "name": "Crest 1v1",
     "description": "1v1 open desert map with minimal csg and metal, encouraging aggressive raids and sneaky pushes through dead zones.",
     "creator": "Dreadnought",
-    "version": "1.2",
+    "version": "1.3",
     "planets": [
         {
             "name": "Crest",

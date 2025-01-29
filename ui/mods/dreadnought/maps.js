@@ -3,13 +3,13 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
         "coui://ui/mods/dreadnought/systems/1v1_Blitz_Firage_1.1.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Blitz_Heatstroke_1.3.pas",
 
-
         "coui://ui/mods/dreadnought/systems/1v1_Anvil_1.1.pas",
-        "coui://ui/mods/dreadnought/systems/1v1_Atlas-Station_1.0.pas",
+        "coui://ui/mods/dreadnought/systems/1v1_Atlas-Station_1.2.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Atomic_1.2.pas",
+        "coui://ui/mods/dreadnought/systems/1v1_Atomic_LE_2.0.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Avalanche_1.7.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Climber_1.1.pas",
-        "coui://ui/mods/dreadnought/systems/1v1_Crackle_1.2.pas",
+        "coui://ui/mods/dreadnought/systems/1v1_Crackle_1.3.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Crakatone_1.2.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Crest_1.3.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Foundry_1.4.pas",
@@ -28,7 +28,7 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
         "coui://ui/mods/dreadnought/systems/1v1_Pummel_1.0.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Pummel_1.1.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Smoker_1.4.pas",
-        "coui://ui/mods/dreadnought/systems/1v1_Station_53C_2.3.pas",
+        "coui://ui/mods/dreadnought/systems/1v1_Station_53C_2.4.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Temple-of-the-Monkey-God_2.4.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Kazranaut_2.8.pas",
 

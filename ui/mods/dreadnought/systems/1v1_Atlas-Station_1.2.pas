@@ -2,7 +2,7 @@
     "name": "Atlas Station 1v1",
     "description": "There is a faint power signature on a nearby desolate moon, investigate this obscure research station and discover plans to a devestating weapon to use against your enemies!",
     "creator": "Dreadnought",
-    "version": "1.0",
+    "version": "1.2",
     "planets": [
         {
             "name": "Atlas Station",
@@ -61,7 +61,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 1,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -110,7 +110,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 2,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -159,7 +159,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 3,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -208,7 +208,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 4,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -257,7 +257,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 5,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -306,7 +306,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 6,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -355,7 +355,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 7,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -404,7 +404,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 8,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -453,7 +453,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 9,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -502,7 +502,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 10,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -551,7 +551,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 11,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -600,7 +600,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 12,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -649,7 +649,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 13,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -698,7 +698,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 14,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -747,7 +747,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 15,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -796,7 +796,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 1,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -845,7 +845,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 2,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -894,7 +894,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 3,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -943,7 +943,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 4,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -992,7 +992,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 5,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -1041,7 +1041,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 6,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -1090,7 +1090,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 7,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -1139,7 +1139,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 8,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -1188,7 +1188,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 9,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -1237,7 +1237,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 10,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -1286,7 +1286,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 11,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -1335,7 +1335,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 12,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -1384,7 +1384,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 13,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -1433,7 +1433,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 14,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -1482,7 +1482,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 15,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -1531,7 +1531,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 16,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -1580,7 +1580,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 16,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -1629,7 +1629,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 17,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -1678,7 +1678,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 17,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": true,
@@ -1727,7 +1727,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 19,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": false,
@@ -1776,7 +1776,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 19,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": false,
@@ -1825,7 +1825,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 20,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": false,
@@ -1874,7 +1874,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 20,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": false,
@@ -1923,7 +1923,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 21,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": false,
@@ -1972,7 +1972,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 21,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": false,
@@ -2021,7 +2021,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 22,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -2070,7 +2070,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 22,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -2119,7 +2119,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 23,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -2168,7 +2168,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 23,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -2217,7 +2217,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 24,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -2266,7 +2266,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 24,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -2315,7 +2315,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 32,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -2364,7 +2364,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 32,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -2413,7 +2413,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 34,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -2462,7 +2462,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 34,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -2511,7 +2511,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 37,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -2560,7 +2560,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 37,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -2609,7 +2609,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 38,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -2658,7 +2658,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 38,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -2707,7 +2707,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 39,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -2756,7 +2756,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 39,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -2805,7 +2805,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 41,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -2854,7 +2854,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 41,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -2903,7 +2903,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 43,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -2952,7 +2952,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 43,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -2971,21 +2971,21 @@
                     "transform": [
                         0.0021217763423919678,
                         -0.6320716142654419,
-                        -0.774907112121582,
+                        -1.3715850114822388,
                         -402.9884033203125,
                         -0.0037255585193634033,
                         0.7748984098434448,
-                        -0.6320748329162598,
+                        -1.118772029876709,
                         -328.7088623046875,
                         0.9999908804893494,
                         0.004228085279464722,
-                        -0.000710606575012207,
+                        -0.001257773139514029,
                         -0.36954906582832336
                     ],
                     "scale": [
                         1,
                         1,
-                        1
+                        1.7699992656707764
                     ],
                     "rotation": 0.6799998879432678,
                     "weight": [
@@ -3050,7 +3050,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 49,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -3099,7 +3099,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 49,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -3148,7 +3148,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 50,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -3197,7 +3197,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 50,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -3246,7 +3246,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 53,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -3295,7 +3295,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 53,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -3344,7 +3344,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 54,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": false,
@@ -3393,7 +3393,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 54,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": false,
@@ -3442,7 +3442,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 56,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -3491,7 +3491,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 56,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -3540,7 +3540,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 57,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": false,
@@ -3589,7 +3589,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 57,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": false,
@@ -3638,7 +3638,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 59,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -3687,7 +3687,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 59,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -3736,7 +3736,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 60,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -3785,7 +3785,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 60,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -3834,7 +3834,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 61,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -3883,7 +3883,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 61,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -3932,7 +3932,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 63,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -3981,7 +3981,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 63,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -4030,7 +4030,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 66,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -4079,7 +4079,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 66,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -4088,31 +4088,31 @@
                 {
                     "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_13.json",
-                    "height": 523.5402221679688,
+                    "height": 523.55322265625,
                     "op": "BO_Add",
                     "position": [
-                        -523.2255859375,
-                        16.29149055480957,
-                        7.997749328613281
+                        -523.2063598632812,
+                        17.39459228515625,
+                        7.779361724853516
                     ],
                     "transform": [
-                        0.031415876001119614,
-                        -0.014653915539383888,
-                        -0.9993988871574402,
-                        -523.2255249023438,
-                        0.9993129372596741,
-                        0.02013513073325157,
-                        0.031117931008338928,
-                        16.291488647460938,
-                        0.01966702565550804,
-                        -0.9996897578239441,
-                        0.015276432037353516,
-                        7.99782657623291
+                        0.033483464270830154,
+                        -0.01426459476351738,
+                        -1.7688266038894653,
+                        -523.2063598632812,
+                        0.9992850422859192,
+                        0.01804632693529129,
+                        0.058806657791137695,
+                        17.39459228515625,
+                        0.0175604410469532,
+                        -0.999735414981842,
+                        0.026299823075532913,
+                        7.779301166534424
                     ],
                     "scale": [
                         1,
                         1,
-                        1
+                        1.7699992656707764
                     ],
                     "rotation": 1.5199991464614868,
                     "weight": [
@@ -4128,7 +4128,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 67,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -4137,31 +4137,31 @@
                 {
                     "proj": "BP_Bend",
                     "spec": "/pa/terrain/metal/brushes/metal_structure_13.json",
-                    "height": 523.5402221679688,
+                    "height": 523.55322265625,
                     "op": "BO_Add",
                     "position": [
-                        -523.2255859375,
-                        16.29149055480957,
-                        7.997749328613281
+                        -523.2063598632812,
+                        17.39459228515625,
+                        7.779361724853516
                     ],
                     "transform": [
-                        0.031415876001119614,
-                        -0.014653915539383888,
-                        -0.9993988871574402,
-                        -523.2255249023438,
-                        0.9993129372596741,
-                        0.02013513073325157,
-                        0.031117931008338928,
-                        16.291488647460938,
-                        -0.01966702565550804,
-                        0.9996897578239441,
-                        -0.015276432037353516,
-                        -7.997826099395752
+                        0.033483464270830154,
+                        -0.01426459476351738,
+                        -1.7688266038894653,
+                        -523.2063598632812,
+                        0.9992850422859192,
+                        0.01804632693529129,
+                        0.058806657791137695,
+                        17.39459228515625,
+                        -0.0175604410469532,
+                        0.999735414981842,
+                        -0.026299823075532913,
+                        -7.779301166534424
                     ],
                     "scale": [
                         1,
                         1,
-                        1
+                        1.7699992656707764
                     ],
                     "rotation": 1.5199991464614868,
                     "weight": [
@@ -4177,7 +4177,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 67,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -4196,21 +4196,21 @@
                     "transform": [
                         -0.23565052449703217,
                         0.01751525327563286,
-                        -0.9716801643371582,
+                        -1.7295899391174316,
                         -508.79779052734375,
                         -0.9717977643013,
                         0.004841476678848267,
-                        0.23576638102531433,
+                        0.4196639955043793,
                         123.45360565185547,
                         0.008833885192871094,
                         0.9998350143432617,
-                        0.01588040590286255,
+                        0.028267109766602516,
                         8.315406799316406
                     ],
                     "scale": [
                         1,
                         1,
-                        1
+                        1.7799992561340332
                     ],
                     "rotation": -1.7999988794326782,
                     "weight": [
@@ -4226,7 +4226,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 68,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -4245,21 +4245,21 @@
                     "transform": [
                         -0.23565052449703217,
                         0.01751525327563286,
-                        -0.9716801643371582,
+                        -1.7295899391174316,
                         -508.79779052734375,
                         -0.9717977643013,
                         0.004841476678848267,
-                        0.23576638102531433,
+                        0.4196639955043793,
                         123.45361328125,
                         -0.008833885192871094,
                         -0.9998350143432617,
-                        -0.01588040590286255,
+                        -0.028267109766602516,
                         -8.315406799316406
                     ],
                     "scale": [
                         1,
                         1,
-                        1
+                        1.7799992561340332
                     ],
                     "rotation": -1.7999988794326782,
                     "weight": [
@@ -4275,7 +4275,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 68,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -4324,7 +4324,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 72,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": false,
@@ -4373,7 +4373,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 72,
+                    "twinId": 0,
                     "pathable": true,
                     "flooded": false,
                     "mergeable": false,
@@ -4422,7 +4422,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 73,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -4471,7 +4471,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 73,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -4520,7 +4520,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 78,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -4569,7 +4569,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 78,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -4618,7 +4618,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 79,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -4667,7 +4667,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 79,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -4716,7 +4716,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 80,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -4765,7 +4765,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 80,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -4814,7 +4814,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 82,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -4863,7 +4863,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 82,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -4912,7 +4912,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 83,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -4961,7 +4961,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 83,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -5010,7 +5010,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 84,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
@@ -5059,7 +5059,105 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 84,
+                    "twinId": 0,
+                    "pathable": false,
+                    "flooded": false,
+                    "mergeable": false,
+                    "no_features": false
+                },
+                {
+                    "proj": "BP_Bend",
+                    "spec": "/pa/terrain/metal/brushes/metal_structure_06.json",
+                    "height": 524.0265502929688,
+                    "op": "BO_Add",
+                    "position": [
+                        -494.5788269042969,
+                        173.1923370361328,
+                        0.2014622688293457
+                    ],
+                    "transform": [
+                        -0.00153375044465065,
+                        0.1421082764863968,
+                        -1.4817732572555542,
+                        -494.5788269042969,
+                        -0.004879996180534363,
+                        0.4058072865009308,
+                        0.5188895463943481,
+                        173.19235229492188,
+                        0.4299701154232025,
+                        0.0051126629114151,
+                        0.0006035862024873495,
+                        0.20146198570728302
+                    ],
+                    "scale": [
+                        0.43000054359436035,
+                        0.43000054359436035,
+                        1.5699994564056396
+                    ],
+                    "rotation": -0.34872666001319885,
+                    "weight": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "weightHard": false,
+                    "weightScale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "mirrored": false,
+                    "twinId": 0,
+                    "pathable": false,
+                    "flooded": false,
+                    "mergeable": false,
+                    "no_features": false
+                },
+                {
+                    "proj": "BP_Bend",
+                    "spec": "/pa/terrain/metal/brushes/metal_structure_06.json",
+                    "height": 523.1680908203125,
+                    "op": "BO_Add",
+                    "position": [
+                        -522.0479736328125,
+                        -34.216453552246094,
+                        0.0527801513671875
+                    ],
+                    "transform": [
+                        -0.00016560812946408987,
+                        -0.02746858447790146,
+                        -1.5766165256500244,
+                        -522.0479125976562,
+                        0.0031751487404108047,
+                        0.41908928751945496,
+                        -0.10333577543497086,
+                        -34.216453552246094,
+                        0.4199884831905365,
+                        -0.0031791813671588898,
+                        0.00015953296679072082,
+                        0.05282442271709442
+                    ],
+                    "scale": [
+                        0.4200005531311035,
+                        0.4200005531311035,
+                        1.5799994468688965
+                    ],
+                    "rotation": 0.07301867753267288,
+                    "weight": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "weightHard": false,
+                    "weightScale": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "mirrored": false,
+                    "twinId": 0,
                     "pathable": false,
                     "flooded": false,
                     "mergeable": false,
