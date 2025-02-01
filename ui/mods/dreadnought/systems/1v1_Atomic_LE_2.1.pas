@@ -2,7 +2,7 @@
     "name": "Atomic 1v1 (LE)",
     "description": "Harness the power of a nuclear bomb and defeat your foe.  Beware the lava in the center for your opponent can push hover units such as drifters and locusts across it for an advantage.",
     "creator": "Dreadnought",
-    "version": "1.2",
+    "version": "2.1",
     "planets": [
         {
             "name": "Atomic",
@@ -4186,7 +4186,7 @@
                 {
                     "proj": "BP_Bend",
                     "spec": "/pa/terrain/lava/brushes/lava_metal_t2_medium_wide_ramp.json",
-                    "height": 399.0574645996094,
+                    "height": 397.0574645996094,
                     "op": "BO_Add",
                     "position": [
                         -316.3708190917969,
@@ -4194,23 +4194,23 @@
                         0.11727142333984375
                     ],
                     "transform": [
-                        0.46320539712905884,
-                        -0.002316206693649292,
-                        -0.5787407159805298,
-                        -316.370849609375,
-                        0.6025187373161316,
-                        -0.0026464760303497314,
-                        0.44492653012275696,
-                        243.22080993652344,
-                        -0.0035097897052764893,
-                        -0.759992241859436,
-                        0.00021446772734634578,
-                        0.11723960936069489
+                        0.45101577043533325,
+                        -0.0022552311420440674,
+                        -0.7610834836959839,
+                        -314.7852783203125,
+                        0.586663007736206,
+                        -0.0025768280029296875,
+                        0.5851086974143982,
+                        242.0018310546875,
+                        -0.003417402505874634,
+                        -0.7399923801422119,
+                        0.0002820396621245891,
+                        0.11665202677249908
                     ],
                     "scale": [
-                        0.7600002288818359,
-                        0.7600002288818359,
-                        0.7300002574920654
+                        0.7400002479553223,
+                        0.7400002479553223,
+                        0.9600000381469727
                     ],
                     "rotation": 0.9199996590614319,
                     "weight": [
@@ -4229,7 +4229,7 @@
                     "twinId": 0,
                     "pathable": true,
                     "flooded": false,
-                    "mergeable": true,
+                    "mergeable": false,
                     "no_features": true
                 }
             ],
