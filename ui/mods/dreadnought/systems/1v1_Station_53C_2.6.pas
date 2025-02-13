@@ -2,7 +2,7 @@
     "name": "Station 53C 1v1",
     "description": "Fight among the streets to gain dominance, and if not, hunker down and take the moon and gas giant in this tight orbital matchup.",
     "creator": "Dreadnought",
-    "version": "2.4",
+    "version": "2.6",
     "planets": [
         {
             "name": "Station 53C",
