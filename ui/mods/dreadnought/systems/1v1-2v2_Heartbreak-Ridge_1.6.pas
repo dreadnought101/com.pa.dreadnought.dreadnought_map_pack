@@ -2,7 +2,7 @@
     "name": "Heartbreak Ridge 1v1-2v2",
     "description": "Fight across these broken heart ridges and ravines.  Heartbreak ridge features many paths to your opponent, take strategic positions and dont forget the lava paths either.  1v1 and 2v2 unshared supported with unshared having two spawns near eachother.",
     "creator": "Dreadnought",
-    "version": "1.4",
+    "version": "1.6",
     "planets": [
         {
             "name": "Heartbreak Ridge",
@@ -14923,14 +14923,14 @@
                         628.8197021484375
                     ],
                     [
-                        -83.99868774414062,
-                        135.40090942382812,
-                        -630.007080078125
-                    ],
-                    [
                         221.07119750976562,
                         29.119354248046875,
                         -611.18212890625
+                    ],
+                    [
+						-83.99868774414062,
+                        135.40090942382812,
+                        -630.007080078125
                     ]
                 ],
                 "rules": [

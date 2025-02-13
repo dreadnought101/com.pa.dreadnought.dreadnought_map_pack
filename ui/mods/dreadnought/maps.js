@@ -17,6 +17,7 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
         "coui://ui/mods/dreadnought/systems/1v1_Crux_1.2.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Eye-of-Eternity_1.6.pas",
         "coui://ui/mods/dreadnought/systems/FFA_Eye-of-Eternity_1.6.pas",
+        "coui://ui/mods/dreadnought/systems/1v1_Forganic_1.0.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Foundry_1.4.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Freezer_1.2.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Frosjir_1.0.pas",
@@ -42,7 +43,7 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
         "coui://ui/mods/dreadnought/systems/1v1-2v2_Acraphon_1.6.pas",
         "coui://ui/mods/dreadnought/systems/1v1-2v2_Ignitus_1.3.pas",
         "coui://ui/mods/dreadnought/systems/1v1-2v2_Mion-9_1.1.pas",
-        "coui://ui/mods/dreadnought/systems/1v1-2v2_Heartbreak-Ridge_1.5.pas",
+        "coui://ui/mods/dreadnought/systems/1v1-2v2_Heartbreak-Ridge_1.6.pas",
         "coui://ui/mods/dreadnought/systems/1v1-2v2_Burning-Oasis_1.5.pas",
         "coui://ui/mods/dreadnought/systems/1v1-2v2_Snapper_1.4.pas",
 
