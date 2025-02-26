@@ -2,7 +2,7 @@
     "name": "Primarden 1v1",
     "description": "A wild planet that has long since consumed the peoples that tried to tame it.  Primarden is a heavy jungle map with some distinct open lanes and closed lanes, as well as an additional area full of riches that has one distant land entrance to, but lobs and air drops may also be an option.",
     "creator": "Dreadnought",
-    "version": "1.0",
+    "version": "1.1",
     "planets": [
         {
             "name": "Primarden",
