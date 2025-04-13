@@ -18,6 +18,7 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
         "coui://ui/mods/dreadnought/systems/1v1_Crux_1.2.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Eye-of-Eternity_1.6.pas",
         "coui://ui/mods/dreadnought/systems/FFA_Eye-of-Eternity_1.6.pas",
+        "coui://ui/mods/dreadnought/systems/1v1_Fearajj_1.0.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Forganic_1.0.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Foundry_1.4.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Freezer_1.2.pas",
@@ -34,7 +35,7 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
         "coui://ui/mods/dreadnought/systems/1v1_Nastolda_2.0.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Oasis_1.1.pas", "coui://ui/mods/dreadnought/systems/1v1_Odium_1.4.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Paranoid-Android_1.2.pas",
-		"coui://ui/mods/dreadnought/systems/1v1_Primarden_1.1.pas",
+        "coui://ui/mods/dreadnought/systems/1v1_Primarden_1.1.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Pummel_1.0.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Pummel_1.1.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Smoker_1.4.pas",
@@ -52,8 +53,8 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
         "coui://ui/mods/dreadnought/systems/1v1-3v3_Drinker_1.5.pas",
         "coui://ui/mods/dreadnought/systems/1v1-3v3_Rustad_1.25.pas",
         "coui://ui/mods/dreadnought/systems/1v1-3v3_yukon-ho_3.3.pas",
-		
-		"coui://ui/mods/dreadnought/systems/3v3_Midget_Planet_1.0.pas",
+
+        "coui://ui/mods/dreadnought/systems/3v3_Midget_Planet_1.0.pas",
 
         "coui://ui/mods/dreadnought/systems/4v4_Sabbath-Station_1.0.pas",
         "coui://ui/mods/dreadnought/systems/4v4_Psycho_1.1.pas",
