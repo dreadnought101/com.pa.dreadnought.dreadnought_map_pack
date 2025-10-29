@@ -1,8 +1,8 @@
 {
     "name": "Forganic 1v1",
-    "description": "",
-    "creator": "",
-    "version": "",
+    "description": "A massive variation of the forge style lava map where you start in an enclosed position, an expansion directly in front of it, and a decision to go forward into the enemy base or expand left or right to the wings.",
+    "creator": "Dreadnought",
+    "version": "1.0",
     "planets": [
         {
             "name": "Forganic",
