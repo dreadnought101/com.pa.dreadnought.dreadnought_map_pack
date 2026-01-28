@@ -14,7 +14,7 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
         "coui://ui/mods/dreadnought/systems/1v1_Crackle_1.3.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Crakatone_1.2.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Crest_1.3.pas",
-        "coui://ui/mods/dreadnought/systems/1v1_Crux_1.2.pas",
+        "coui://ui/mods/dreadnought/systems/1v1_Crux_1.3.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Eye-of-Eternity_1.6.pas",
         "coui://ui/mods/dreadnought/systems/FFA_Eye-of-Eternity_1.6.pas",
 
