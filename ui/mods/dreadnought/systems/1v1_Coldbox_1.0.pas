@@ -1,5 +1,5 @@
 {
-    "name": "Coldbox",
+    "name": "Coldbox 1v1",
     "description": "Hemispheric ice map",
     "creator": "Dreadnought",
     "version": "1.0",
