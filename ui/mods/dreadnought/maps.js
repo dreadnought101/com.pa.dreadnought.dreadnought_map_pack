@@ -11,7 +11,7 @@ cShareSystems.load_pas("Dreadnought Map Pack", [
         "coui://ui/mods/dreadnought/systems/1v1_Avalanche_2.0.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Brittle_1.3.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Climber_1.2.pas",
-		"coui://ui/mods/dreadnought/systems/1v1_Coldbox_1.0.pas",
+		"coui://ui/mods/dreadnought/systems/1v1_Coldbox_1.3.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Crackle_1.3.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Crakatone_1.2.pas",
         "coui://ui/mods/dreadnought/systems/1v1_Crest_1.3.pas",
